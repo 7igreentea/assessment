@@ -94,11 +94,5 @@ function assesment(userName){
 
 
 
-//テストコード
-console.log(assesment('太郎'));
-console.log(assesment('次郎'));
-console.log(assesment('樂'));
-console.assert(
-    assesment('樂') == assesment('樂'),
-    '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
+
 );
